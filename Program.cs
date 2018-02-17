@@ -20,6 +20,9 @@ namespace GitPractice
 
             Console.WriteLine("Lesson 1: How to create git repository");
             Console.WriteLine(">git init");
+            Console.WriteLine("This command initializes a git repository locally");
+            Console.WriteLine("\b>git add <file name(s)>");
+            Console.WriteLine("This command stages the changes.");
         }
     }
 }
