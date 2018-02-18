@@ -6,7 +6,8 @@ namespace GitPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, My name is Git. what is your name?");
+
+            Console.WriteLine("Hey dude, wus yo name?");
             var name = Console.ReadLine();
             Console.WriteLine($"Nice to meet you {name}");
 
@@ -23,6 +24,7 @@ namespace GitPractice
             Console.WriteLine("This command initializes a git repository locally");
             Console.WriteLine("\b>git add <file name(s)>");
             Console.WriteLine("This command stages the changes.");
+
         }
     }
 }
